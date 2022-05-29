@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:ital,wght@0,200;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-image: url("images/wallpaper-pokemonsTypes.jpg");
+    background-attachment: fixed;
+    font-family: 'Raleway', sans-serif;
+}
+
+#pokeweb {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.types {
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.type__selector {
+    padding: 24px;
+    border: 2px solid black;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.type__container {
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    /* margin-right: 20px; */
+    margin-block: 20%;
+    text-align: center;
+    /* opacity: 100%; */
+}
+
+.type__container--all {
+    background-color: #73f3ed;
+}
+
+.type__container--fire{
+    background-color: #f8955c;
+}
+
+.type__container--grass{
+    background-color: #93d17a;
+}
+
+.type__container--water{
+    background-color: #93beef;
+}
+
+.type__container--flying{
+    background-color: #f4ade7;
+}
+
+.type__container--electric{
+    background-color: #f8e69f;
+}
+
+.type__container--ground{
+    background-color: #ab928e;
+}
+
+.type__container--rock{
+    background-color: #a09f9f;
+}
+
+.type__container--fairy{
+    background-color: #e191fb;
+}
+
+.type__container--bug{
+    background-color: #a9fdbd;
+}
+
+.type__container--poison{
+    background-color: #c5c2c1;
+}
+
+.type__container--dragon{
+    background-color: #e191fb;
+}
+
+.type__container--psychic{
+    background-color: #fb91d2;
+}
+
+.type__container--fighting{
+    background-color: #d66d6d;
+}
+
+.type__container--normal{
+    background-color: #bf9f8d;
+}
+
+.type__container--ghost{
+    background-color: #a276b1;
+}
+
+.type__container--steel{
+    background-color: #92c8a1;
+}
+
+.type__container--ice{
+    background-color: #b6defe;
+}
+
+.type__container--dark{
+    background-color: #a493aa;
+}
+
+.card__container {
+    /* background-image: url("images/pokeball.png"); */
+    max-width: 1200px;
+    margin: 5px;
+    background-color: rgb(249, 253, 255);
+    border-color: black;
+    border-radius: 10%;
+}
