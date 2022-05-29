@@ -4,42 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>POKE PROJECT</title>
-    <script src="./index.js" defer></script>
+    <title>POKE WEB</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" href="images\pokeball2.png">
 </head>
 <body>
     <div class="container">
+        <div class="logo">
+            <img src="./images/logo-pokemon.svg" class="logo__pokemon" alt="logo">
+        </div>
         
-        <h1>PokeWeb</h1>
-        
-        <div style="display: flex">
-          <input id="search-input" onchange="searchEngine()" type="text"/>
+        <div class="search">
+          <input id="search-input" type="text" placeholder="Search you're favorite pokemon"/>
         </div>
   
-        <div class="types">
-            <div class="type__selector type__selector--all">all</div>
-            <div class="type__selector type__selector--fire">fire</div>
-            <div class="type__selector type__selector--grass">grass</div>
-            <div class="type__selector type__selector--water">water</div>
-            <div class="type__selector type__selector--flying">flying</div>
-            <div class="type__selector type__selector--electric">electric</div>
-            <div class="type__selector type__selector--ground">ground</div>
-            <div class="type__selector type__selector--rock">rock</div>
-            <div class="type__selector type__selector--fairy">fairy</div>
-            <div class="type__selector type__selector--bug">bug</div>
-            <div class="type__selector type__selector--poison">poison</div>
-            <div class="type__selector type__selector--dragon">dragon</div>
-            <div class="type__selector type__selector--psychic">psychic</div>
-            <div class="type__selector type__selector--fighting">fighting</div>
-            <div class="type__selector type__selector--normal">normal</div>
-            <div class="type__selector type__selector--ghost">ghost</div>
-            <div class="type__selector type__selector--steel">steel</div>
-            <div class="type__selector type__selector--ice">ice</div>
-            <div class="type__selector type__selector--dark">dark</div>
+        <div class="type">
+            <div id="all" class="type__selector type__selector--all">all</div>
+            <div id="fire" class="type__selector type__selector--fire">fire</div>
+            <div id="grass" class="type__selector type__selector--grass">grass</div>
+            <div id="water" class="type__selector type__selector--water">water</div>
+            <div id="flying" class="type__selector type__selector--flying">flying</div>
+            <div id="electric" class="type__selector type__selector--electric">electric</div>
+            <div id="ground" class="type__selector type__selector--ground">ground</div>
+            <div id="rock" class="type__selector type__selector--rock">rock</div>
+            <div id="fairy" class="type__selector type__selector--fairy">fairy</div>
+            <div id="bug" class="type__selector type__selector--bug">bug</div>
+            <div id="poison" class="type__selector type__selector--poison">poison</div>
+            <div id="dragon" class="type__selector type__selector--dragon">dragon</div>
+            <div id="psychic" class="type__selector type__selector--psychic">psychic</div>
+            <div id="fighting" class="type__selector type__selector--fighting">fighting</div>
+            <div id="normal" class="type__selector type__selector--normal">normal</div>
+            <div id="ghost" class="type__selector type__selector--ghost">ghost</div>
+            <div id="steel" class="type__selector type__selector--steel">steel</div>
+            <div id="ice" class="type__selector type__selector--ice">ice</div>
+            <div id="dark" class="type__selector type__selector--dark">dark</div>
         </div>
 
         <div id="pokeweb"></div>
     </div>
+    
 </body>
 </html>
