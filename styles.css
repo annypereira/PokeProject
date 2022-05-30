@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:ital,wght@0,200;1,300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:ital,wght@0,200;1,300&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Pacifico&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Fredoka+One&display=swap');
 
 *{
     margin: 0;
@@ -10,7 +12,9 @@
     background: url("images/background2.jpg") fixed center top;
     background-size: cover;
     background-attachment: fixed;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Acme', sans-serif;
+    /* font-family: 'Fredoka One', sans-serif; */
+    /* font-family: 'Raleway', sans-serif; */
 }
 
 .logo {
@@ -58,12 +62,16 @@
     margin-bottom: 50px;
     cursor: pointer;
     text-align: center;
-    font-weight: bold;
     text-transform: uppercase;
 }
 
+.type__selector:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px #454545;
+}
+
 .type__selector--all {
-    background-color: #ffffff;
+    background-color: #fcceee;
 }
 
 .type__selector--fire{
@@ -153,12 +161,7 @@
     margin-bottom: 15px;
     margin-block: 20%;
     text-align: center;
-    font-weight: bold;
     text-transform: uppercase;
-}
-
-.type__container--all {
-    background-color: #ffffff;
 }
 
 .type__container--fire{
@@ -236,8 +239,13 @@
 .card__container {
     max-width: 300px;
     margin: 5px;
-    background-color: rgb(249, 253, 255);
+    background-color: rgb(240, 239, 239);
     border-radius: 5%;
+}
+
+.card__container:hover {
+    background-color: white;
+    box-shadow: 5px 5px 10px #454545;
 }
 
 .img__container > img{
@@ -247,21 +255,21 @@
 }
 .id__container {
     text-align: center;
-    font-weight: bold;
-    text-transform: uppercase
+    text-transform: uppercase;
+    font-size: medium;
 }
 
 .nameType__container {
     margin-top: 10px;
     text-align: center;
-    font-weight: bold;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
-/* .name__container{
-    
+.name__container{
+    font-size: larger;
+    font-weight: bold;
 }
 
 .divType__container {
-    
-} */
+    font-weight: lighter;
+}
